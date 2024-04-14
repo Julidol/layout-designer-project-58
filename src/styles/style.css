@@ -136,14 +136,18 @@ h5 {
 
 .video-content {
   position: relative;
-  margin-top: -198px;
-  bottom: -202px;
+  margin-top: -200px;
+  bottom: -200px;
 }
 
 .video {
   margin: 0 auto;
   display: block;
   filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
+}
+
+iframe {
+  border-style: none;
 }
 
 /**** nav ****/
