@@ -126,16 +126,18 @@ h5 {
 }
 
 /**** video ****/
+.video-section {
+  height: 806px;
+}
 
 .text-center {
   text-align: center;
 }
 
 .video-content {
-  vertical-align: middle;
   position: relative;
-  margin-top: -201px;
-  bottom: -201px;
+  margin-top: -200px;
+  bottom: -200px;
 }
 
 .video {
