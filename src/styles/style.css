@@ -1,6 +1,7 @@
 :root {
   --white: #fff;
   --light: #f5f4f0;
+  --semiwhite: #d7ccc0;
   --primary: #fe8a02;
   --dark: #2a2626;
   --primary-dark: #42413c;
@@ -136,8 +137,8 @@ h5 {
 
 .video-content {
   position: relative;
-  margin-top: -197px;
-  bottom: -197px;
+  margin-top: -198px;
+  bottom: -198px;
 }
 
 .video {
@@ -158,20 +159,17 @@ ul {
 
 .main-nav {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   flex-wrap: wrap;
-  gap: 20px 25px;
+  row-gap: 20px;
+   
   margin: 0;
   padding: 0;
-
-  list-style-type: none;
 }
 
 .nav-item {
-  display: block;
   box-sizing: border-box;
-  max-width: 350px;
-
+  width: 350px;
   background-color: var(--light);
   padding: 24px;
 }
@@ -188,22 +186,27 @@ ul {
 }
 
 /**** biases ****/
-.section-image {
+.bias-picture {
   position: relative;
   z-index: 7;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .text-divider {
-  background-color: var(--brown);
+  
   padding-left: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
-  color: #fff;
+  
   margin-top: 100px;
   margin-bottom: 20px;
   position: relative;
   z-index: 5;
+  
+}
+
+.title-how{
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -224,6 +227,10 @@ ul {
 }
 
 /* colours */
+.brown {
+  background-color: var(--brown);
+}
+
 .light {
   background-color: var(--light);
 }
@@ -242,6 +249,14 @@ ul {
 
 .text-white {
   color: var(--white);
+}
+
+.text-semiwhite{
+  color: var(--semiwhite);
+}
+
+.text-brown{
+  color: var(--brown);
 }
 
 /* flexxxxx */
@@ -266,6 +281,10 @@ ul {
 }
 
 /* gaps etc */
+
+.mt-16 {
+  margin-top: 16px;
+}
 
 .mt-185 {
   margin-top: 185px;
