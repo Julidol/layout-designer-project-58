@@ -226,6 +226,27 @@ ul {
 .bias-subtitle {
 }
 
+/**** footer ****/
+.subscribe-text {
+  padding: 55px;
+}
+
+.email-text {
+  font-size: 18px;
+  margin-top: 38px;
+}
+.input-email {
+  height: 50px;
+  padding: 15px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 0;
+  font-size: 13px;
+  color: #908d8b;
+}
+
+
+
 /* colours */
 .brown {
   background-color: var(--brown);
