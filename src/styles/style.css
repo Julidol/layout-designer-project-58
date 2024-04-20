@@ -142,8 +142,8 @@ h5 {
 }
 
 .video {
-  margin: 0 auto;
-  display: block;
+  /* margin: 0 auto;
+  display: block; */
   filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
 }
 
@@ -162,7 +162,7 @@ ul {
   justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 20px;
-   
+
   margin: 0;
   padding: 0;
 }
@@ -198,19 +198,17 @@ ul {
 }
 
 .text-divider {
-  
   padding-left: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
-  
+
   margin-top: 100px;
   margin-bottom: 20px;
   position: relative;
   z-index: 5;
-  
 }
 
-.title-how{
+.title-how {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -239,7 +237,7 @@ ul {
 .email-text {
   font-size: 18px;
   margin-top: 38px;
-  margin-bottom: 9px; 
+  margin-bottom: 9px;
 }
 .input-email {
   height: 50px;
@@ -247,20 +245,20 @@ ul {
   border-radius: 0%;
   border: 1px solid #e3e3e3;
   padding: 15px;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 ::placeholder {
   color: #757575;
   font-size: 13.1px;
-} 
+}
 
 button {
   position: relative;
   background-color: #fe8a02;
   width: 70px;
   height: 50px;
-  border: none; 
+  border: none;
 }
 
 button:hover {
@@ -291,9 +289,8 @@ button::before {
 /**** footer ****/
 .footer-text a {
   color: #1085c5;
-  text-decoration: underline; 
+  text-decoration: underline;
 }
- 
 
 /* colours */
 .brown {
@@ -320,17 +317,21 @@ button::before {
   color: var(--white);
 }
 
-.text-semiwhite{
+.text-semiwhite {
   color: var(--semiwhite);
 }
 
-.text-brown{
+.text-brown {
   color: var(--brown);
 }
 
 /* flexxxxx */
 .d-flex {
   display: flex;
+}
+
+.align-center {
+  align-items: center;
 }
 
 .gap-30 {
