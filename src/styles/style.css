@@ -191,10 +191,13 @@ ul {
 }
 
 /**** biases ****/
-.bias-picture {
-  vertical-align: middle;
+.bias-picture-container {
   position: relative;
   z-index: 7;
+}
+
+.bias-picture {
+  vertical-align: middle;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
