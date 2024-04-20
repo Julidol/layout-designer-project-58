@@ -174,6 +174,11 @@ ul {
   padding: 24px;
 }
 
+.nav-text {
+  margin: 0;
+  padding: 0;
+}
+
 .nav-item:first-child {
   background-color: var(--primary-dark);
   padding: 0;
@@ -234,18 +239,61 @@ ul {
 .email-text {
   font-size: 18px;
   margin-top: 38px;
+  margin-bottom: 9px; 
 }
 .input-email {
   height: 50px;
+  width: 423px;
+  border-radius: 0%;
+  border: 1px solid #e3e3e3;
   padding: 15px;
-  box-sizing: border-box;
-  border: none;
-  border-radius: 0;
-  font-size: 13px;
-  color: #908d8b;
+  box-sizing: border-box; 
 }
 
+::placeholder {
+  color: #757575;
+  font-size: 13.1px;
+} 
 
+button {
+  position: relative;
+  background-color: #fe8a02;
+  width: 70px;
+  height: 50px;
+  border: none; 
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #ea7600;
+}
+
+button::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  right: 0;
+  top: 0;
+  background-image: url("../assets/img/send.svg");
+}
+
+.rules {
+  font-size: 12px;
+}
+
+.rules a {
+  text-decoration: underline;
+}
+
+/**** footer ****/
+.footer-text a {
+  color: #1085c5;
+  text-decoration: underline; 
+}
+ 
 
 /* colours */
 .brown {
@@ -302,6 +350,10 @@ ul {
 }
 
 /* gaps etc */
+
+.mt-60 {
+  margin-top: 60px;
+}
 
 .mt-16 {
   margin-top: 16px;
