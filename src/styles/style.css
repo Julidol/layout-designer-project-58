@@ -110,7 +110,7 @@ h5 {
 }
 
 .more {
-  margin-top: 24px; /*11.04.2024 */
+  margin-top: 24px;
   display: inline-block;
   width: 148px;
   height: 49px;
@@ -220,17 +220,11 @@ ul {
 }
 
 .decorative-text {
-  font-family: Neucha;
+  font-family: Neucha, cursive;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: 28.8px; /* 120% */
-}
-
-.bias-title {
-}
-
-.bias-subtitle {
 }
 
 /**** footer ****/
@@ -243,6 +237,7 @@ ul {
   margin-top: 38px;
   margin-bottom: 9px;
 }
+
 .input-email {
   height: 50px;
   width: 423px;
@@ -391,6 +386,7 @@ button::before {
 .p-top-100 {
   padding-top: 100px;
 }
+
 .line-height-1 {
   line-height: 1;
 }
