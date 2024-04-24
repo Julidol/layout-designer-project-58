@@ -387,6 +387,10 @@ button::before {
   padding-top: 100px;
 }
 
+.p-top-0 {
+  padding-top: 0;
+}
+
 .line-height-1 {
   line-height: 1;
 }
