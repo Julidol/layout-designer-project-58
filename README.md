@@ -3,3 +3,5 @@ An educational progect - the landing page with layout design describes cognitive
 
 ## Progect deploy
 [Cognitive biases in programming](http://wrathful-metal.surge.sh)
+
+![](src/cognitive_biases.png)
